@@ -1,0 +1,23 @@
+{
+  "name": "codecraft",
+  "version": "1.0.0",
+  "description": "Basic CRUD API for Users using Express and in-memory storage",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "crud",
+    "api"
+  ],
+  "author": "Aryan Harke",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.22.1",
+    "uuid": "^9.0.1"
+  }
+}
